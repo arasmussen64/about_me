@@ -1,0 +1,55 @@
+#top_image {
+    background-image: url('./images/engagements.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 0px;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+.timeline {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    padding-right: 200px;
+    padding-left: 100px;
+}
+
+#intro {
+    text-align: left;
+    color: white;
+    padding-left: 50px;
+    
+}
+
+#bodyIntro {
+    background-color: lightgray;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+body {
+    text-align: center;
+
+
+}
+ul {
+    list-style-type: none;
+}
+
+.lifeImage {
+    height: 252px;
+    width: 252px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10%;
+    display: flex;
+}
+
+/* #hawaii {
+    transform: rotate(-90deg);
+} */
